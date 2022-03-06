@@ -1,0 +1,53 @@
+@charset "utf-8";
+body{
+	font-size: 15px!important;
+	--color1:#198754;
+	--color2:#eeeeee;
+	--light:#ffffff;
+	--dark:#000000;
+	min-width: 1024px!important;
+}
+a, a:active, a:hover{
+	text-decoration: none;
+	color:var(--color1);
+}
+.overflow-scroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+.overflow-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Handle */
+.overflow-scroll::-webkit-scrollbar-thumb {
+  background: #0f0;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.overflow-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.nav-link{
+	font-size: 1.2em;
+	font-weight: 500;
+	color:var(--color2);
+	padding-left: 30px;
+}
+.nav-link:hover{
+	background-color: #333;
+	color:var(--color1);
+}
+.nav-pills .nav-link.active{
+	background-color: var(--color1);
+	/*background-color: #198754;*/
+}
+.product-list>*{
+	margin-bottom: 10px;
+}
+table{
+	margin-bottom: 500px!important;
+}
